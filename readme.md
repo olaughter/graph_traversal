@@ -12,3 +12,11 @@ network_connectivity
 | 2   | 3   |
 | ... | ... |
 
+# How to run
+
+1. install poetry for dependency management
+2. install dependencies: `poetry install`
+3. Setup .env file by copying the sample and filling in relevant values (i.e. for a production version of the database)
+4. Run `main.py` passing in desired values, eg: `poetry run python main.py 1 3`
+
+Alternatively, do steps 2 and 3 then run test cases via: `poetry run pytest`
